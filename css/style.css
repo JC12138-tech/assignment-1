@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.quiz-container {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px gray;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.option {
+    display: block;
+    width: 250px;
+    margin: 10px auto;
+    padding: 12px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#next-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
